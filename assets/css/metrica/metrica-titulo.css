@@ -1,0 +1,6 @@
+.metrica__titulo {
+    color: var(--cor-titulo);
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}

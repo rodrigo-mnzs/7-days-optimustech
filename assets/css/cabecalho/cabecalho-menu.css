@@ -1,0 +1,20 @@
+.cabecalho__menu{
+    display: flex;
+    flex-grow: 1;
+}
+
+.cabecalho__menu ul {
+    display: flex;
+}
+
+.cabecalho__menu--item{
+    color: var(--cor-texto);
+    font-size: 1rem;
+    font-weight: 500;
+    margin-right: 2rem;
+    text-decoration: none;
+}
+
+.cabecalho__menu--item:hover{
+    text-decoration: underline;
+}

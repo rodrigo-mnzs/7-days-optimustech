@@ -1,6 +1,6 @@
-.cabecalho-botoes__cadastrar{
-    background: #8E2424;
-    border: .0625rem solid #8E2424;
+.cabecalho__cadastrar{
+    background: var(--cor-primaria);
+    border: .0625rem solid var(--cor-primaria);
     border-radius: .5rem;
     color: #FFFFFF;
     cursor: pointer;
@@ -8,11 +8,11 @@
     width: 7rem;
 }
 
-.cabecalho-botoes__cadastrar:hover{
+.cabecalho__cadastrar:hover{
     opacity: 0.8;
 }
 
-.cabecalho-botoes__cadastrar:active{
+.cabecalho__cadastrar:active{
     opacity: 0.8;
     transform: scale(1.1);
     transition: 0.1s;

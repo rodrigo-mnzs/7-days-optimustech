@@ -1,8 +1,7 @@
-.sessao-sobre{
+.sobre{
     align-items: center;
     display: flex;
     flex-direction: column;
-    font-family: 'Inter', sans-serif;
     justify-content: center;
     height: 25.4375rem;
 }

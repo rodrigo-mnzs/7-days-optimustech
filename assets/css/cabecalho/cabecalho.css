@@ -1,8 +1,8 @@
 .cabecalho{
     align-items: center;
     display: flex;
-    font-family: 'Inter', sans-serif;
     height: 5rem;
     justify-content: space-between;
     margin: 0 7rem 0 7rem;
+    width: calc(100vw - 14rem);
 }

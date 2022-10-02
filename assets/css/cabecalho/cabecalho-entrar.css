@@ -1,0 +1,10 @@
+.cabecalho__entrar{
+    color: var(--cor-texto);
+    display: inline-block;
+    margin-right: 3rem;
+    text-decoration: none;
+}
+
+.cabecalho__entrar:hover{
+    text-decoration: underline;
+}

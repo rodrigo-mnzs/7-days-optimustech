@@ -1,0 +1,7 @@
+.metrica{
+    margin-right: 2rem;
+}
+
+.metrica:last-child{
+    margin-left: 0;
+}

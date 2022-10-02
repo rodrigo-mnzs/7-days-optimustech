@@ -9,44 +9,69 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/cabecalho.css">
-    <link rel="stylesheet" href="assets/css/cabecalho-nav/cabecalho-nav.css">
-    <link rel="stylesheet" href="assets/css/cabecalho-nav/cabecalho-nav-logo.css">
-    <link rel="stylesheet" href="assets/css/cabecalho-nav/cabecalho-nav-menu.css">
-    <link rel="stylesheet" href="assets/css/cabecalho-botoes/cabecalho-botoes.css">
-    <link rel="stylesheet" href="assets/css/cabecalho-botoes/cabecalho-botoes-entrar.css">
-    <link rel="stylesheet" href="assets/css/cabecalho-botoes/cabecalho-botoes-cadastrar.css">
-    <link rel="stylesheet" href="assets/css/sessao-sobre/sessao-sobre.css">
-    <link rel="stylesheet" href="assets/css/sessao-sobre/sessao-sobre-apresentacao.css">
-    <link rel="stylesheet" href="assets/css/sessao-sobre/sessao-sobre-titulo.css">
-    <link rel="stylesheet" href="assets/css/sessao-sobre/sessao-sobre-texto.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/cabecalho/cabecalho-logo.css">
+    <link rel="stylesheet" href="assets/css/cabecalho/cabecalho-menu.css">
+    <link rel="stylesheet" href="assets/css/cabecalho/cabecalho-entrar.css">
+    <link rel="stylesheet" href="assets/css/cabecalho/cabecalho-cadastrar.css">
+    <link rel="stylesheet" href="assets/css/sobre/sobre.css">
+    <link rel="stylesheet" href="assets/css/sobre/sobre-apresentacao.css">
+    <link rel="stylesheet" href="assets/css/sobre/sobre-titulo.css">
+    <link rel="stylesheet" href="assets/css/sobre/sobre-texto.css">
+    <link rel="stylesheet" href="assets/css/metricas.css">
+    <link rel="stylesheet" href="assets/css/metrica/metrica.css">
+    <link rel="stylesheet" href="assets/css/metrica/metrica-quantidade.css">
+    <link rel="stylesheet" href="assets/css/metrica/metrica-titulo.css">
+    <link rel="stylesheet" href="assets/css/metrica/metrica-descricao.css">
     <title>Home</title>
 </head>
 
 <body>
     <header class="cabecalho">
-        <div class="cabecalho-nav">
-            <img class="cabecalho-nav__logo" src="assets/images/logo.png" alt="">
-            <nav>
-                <ul class="cabecalho-nav__menu">
-                    <li><a class="cabecalho-nav__menu--item" href="">Home</a></li>
-                    <li><a class="cabecalho-nav__menu--item" href="">Produtos</a></li>
-                    <li><a class="cabecalho-nav__menu--item" href="">Recursos</a></li>
-                    <li><a class="cabecalho-nav__menu--item" href="">Sobre nos</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="cabecalho-botoes">
-            <a class="cabecalho-botoes__entrar" href="">Entrar</a>
-            <button class="cabecalho-botoes__cadastrar">Cadastrar</button>
-        </div>
+        <img class="cabecalho__logo" src="assets/images/logo.png" alt="">
+        <nav class="cabecalho__menu">
+            <ul>
+                <li><a class="cabecalho__menu--item" href="">Home</a></li>
+                <li><a class="cabecalho__menu--item" href="">Produtos</a></li>
+                <li><a class="cabecalho__menu--item" href="">Recursos</a></li>
+                <li><a class="cabecalho__menu--item" href="">Sobre nos</a></li>
+            </ul>
+        </nav>
+        <a class="cabecalho__entrar" href="">Entrar</a>
+        <button class="cabecalho__cadastrar">Cadastrar</button>
     </header>
     <main>
-        <section class="sessao-sobre">
-            <span class="sessao-sobre__apresentacao">Sobre nós</span>
-            <h1 class="sessao-sobre__titulo">Porque somos diferentes?</h1>
-            <p class="sessao-sobre__texto">Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de todo o mundo a se
-                concentrarem naquilo que é realmente importante para elas.</p>
+        <section class="sobre">
+            <p class="sobre__apresentacao">Sobre nós</p>
+            <h1 class="sobre__titulo">Porque somos diferentes?</h1>
+            <p class="sobre__texto">Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de todo o
+                mundo a se concentrarem naquilo que é realmente importante para elas.</p>
+        </section>
+        <section class="metricas">
+            <div class="metrica">
+                <p class="metrica__quantidade">400+</p>
+                <h3 class="metrica__titulo">Projetos concluídos</h3>
+                <p class="metrica__descricao">Nós ajudamos a construir mais de 400 projetos incríveis.</p>
+            </div>
+            <div class="metrica">
+                <p class="metrica__quantidade">100+</p>
+                <h3 class="metrica__titulo">Colaboradores</h3>
+                <p class="metrica__descricao">Temos mais de 100 colaboradores no nosso time que se preocupam com nossos
+                    clientes.</p>
+            </div>
+            <div class="metrica">
+                <p class="metrica__quantidade">20k</p>
+                <h3 class="metrica__titulo">Downloads</h3>
+                <p class="metrica__descricao">Nossos projetos que estão disponíveis em lojas já foram baixados mais de
+                    20.000 vezes.</p>
+            </div>
+            <div class="metrica">
+                <p class="metrica__quantidade">500+</p>
+                <h3 class="metrica__titulo">Reviews 5 estrelas</h3>
+                <p class="metrica__descricao">Estamos orgulhosos de contar com mais de 500 reviews 5 estrelas em nossos
+                    produtos.</p>
+            </div>
         </section>
     </main>
 </body>
