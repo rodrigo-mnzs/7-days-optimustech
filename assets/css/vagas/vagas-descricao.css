@@ -1,0 +1,6 @@
+.vagas__descricao{
+    color: var(--cor-texto);
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 4rem;
+}
