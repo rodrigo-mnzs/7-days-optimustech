@@ -1,7 +1,10 @@
 :root{
-    font-family: 'Inter', sans-serif;
-
     --cor-primaria: #8E2424;
     --cor-titulo: #101828;
     --cor-texto: #667085;
+    --cor-borda: #EAECF0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
 }

@@ -1,0 +1,12 @@
+.vaga__info{
+    border: 1px solid var(--cor-borda);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+}
+
+.vaga__info:last-child{
+    margin-bottom: 0;
+}

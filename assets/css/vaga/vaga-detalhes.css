@@ -1,0 +1,17 @@
+.vaga__detalhes{
+    display: flex;
+}
+
+.vaga__detalhes--formato{
+    color: var(--cor-texto);
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 1.5rem;
+}
+
+.vaga__detalhes--salario{
+    color: var(--cor-texto);
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 1.5rem;
+}
