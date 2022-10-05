@@ -1,0 +1,5 @@
+.depoimento__cargo{
+    color: var(--cor-texto);
+    font-size: .875rem;
+    font-weight: 400;
+}

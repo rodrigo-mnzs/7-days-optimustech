@@ -1,0 +1,15 @@
+.depoimentos{
+    align-items: center;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+.depoimentos__titulo{
+    color: var(--cor-primaria);
+    font-size: .875rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}

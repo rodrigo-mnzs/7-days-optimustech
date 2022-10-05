@@ -3,6 +3,5 @@
     display: flex;
     height: 5rem;
     justify-content: space-between;
-    margin: 0 7rem 0 7rem;
     width: calc(100vw - 14rem);
 }
