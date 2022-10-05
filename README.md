@@ -1,6 +1,22 @@
 # 7 Days of Code - Optmustech
-## Desafio: Construção de uma página destinada a novas contratações de uma empresa
-Para realizar o desafio, recebi um protótipo da página pelo Figma: <https://www.figma.com/file/mm3MLozvUDGhDRTxSLlGL5/7daysOfCode-HTML-CSS>. Meu objetivo é reproduzir a página, segue abaixo um resumo da minha experiência com o decorrer dos dias:
-1.  No primeiro dia comecei desenvolvendo o Navbar da aplicação, estruturando todo o código HTML e já criando as classes que eu usaria para estilizar o Navbar. As classes foram criadas com base no padrão bem BEM, e a estrutura das pastas e arquivos foram feitos em cima do Atomic CSS. Agora que o HTML e os arquivos estão prontos, realizei as estilização, posicionando os elementos da página usando Flex-Box e estilizando os elementos de acordo com as informações que extraía do Figma, como dimensões, cores e posicionamento.
-2. Dando continuidade, hoje foi desenvolvido a seção "sobre" da página, como boa parte da estrutura foi construída no dia anterior, realizar o desafio de hoje foi relativamente rápido.
-3. Construção da sessão métricas, para realizar esta tarefa eu subdivide a seção em quatro, utilizando o display flex para que ficassem lado a lado conforme apresentado no protótipo. Para o código ficar melhor organizado, guardei as cores em variáveis dentro do style.css.
+
+**O desafio consiste em desenvolver uma pagina destinada a novas contratações de uma empresa, no período de 7 dias, subdividindo as tarefas de acordo com a tabela abaixo:**
+
+Daily                      |Situação
+---------------------------|---------
+Cabeçalho                  |✔
+Seção sobre nós            |✔
+Seção métricas e resultados|✔
+Seção de chamada           |✔
+Seção de vagas             |✔
+Seção de depoimentos       |✔
+Rodapé                     |❌
+
+**Tecnologias utilizadas:**
+
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+
+##
+
+* Protótipo recebido no Figma: <https://www.figma.com/file/mm3MLozvUDGhDRTxSLlGL5/7daysOfCode-HTML-CSS?node-id=0%3A1>
+* Link do projeto em produção: <https://rodrigo-mnzs.github.io/7-days-optimustech/index.html>
