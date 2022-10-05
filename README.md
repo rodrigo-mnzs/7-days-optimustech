@@ -2,6 +2,8 @@
 
 **O desafio consiste em desenvolver uma pagina destinada a novas contratações de uma empresa, no período de 7 dias, subdividindo as tarefas de acordo com a tabela abaixo:**
 
+✔ Concluído | 🔵 Em desenvolvimento | ❌ Não iniciado
+
 Daily                      |Situação
 ---------------------------|---------
 Cabeçalho                  |✔
