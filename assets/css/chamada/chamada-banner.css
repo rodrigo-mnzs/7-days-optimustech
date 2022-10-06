@@ -1,4 +1,4 @@
 .chamada__banner{
-    height: 25rem;
-    width: auto;
+    height: auto;
+    width: calc(100vw - 14rem);
 }
