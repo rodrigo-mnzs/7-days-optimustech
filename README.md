@@ -12,7 +12,7 @@ Seção métricas e resultados|✔
 Seção de chamada           |✔
 Seção de vagas             |✔
 Seção de depoimentos       |✔
-Rodapé                     |❌
+Rodapé                     |✔
 
 **Tecnologias utilizadas:**
 

@@ -1,0 +1,21 @@
+.rodape__formulario{
+   margin-bottom: 2rem;
+}
+
+.rodape__formulario--input{
+    border: 1px solid #D0D5DD;
+    border-radius: .5rem;
+    height: calc(3rem - 2px);
+    padding-left: 1rem;
+    margin-right: 1rem;
+    width: 22.5rem;
+}
+
+.rodape__formulario--input::placeholder{
+   color: #667085;
+}
+
+.rodape__formulario--botao{
+    height: 3rem;
+    width: 7.25rem;
+}

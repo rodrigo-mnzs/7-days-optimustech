@@ -1,14 +1,35 @@
-:root{
+:root {
     --cor-primaria: #8E2424;
     --cor-titulo: #101828;
     --cor-texto: #667085;
     --cor-borda: #EAECF0;
+    --cor-footer: #F9FAFB;
 }
 
-body{
+body {
     font-family: 'Inter', sans-serif;
 }
 
-.container{
+/**************************Classes genéricas aqui**************************/
+
+.container {
     margin: 0 7rem;
+}
+
+.botao {
+    background: var(--cor-primaria);
+    border: .0625rem solid var(--cor-primaria);
+    border-radius: .5rem;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.botao:hover {
+    opacity: 0.8;
+}
+
+.botao:active {
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: 0.1s;
 }

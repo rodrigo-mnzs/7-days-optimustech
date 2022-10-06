@@ -1,0 +1,9 @@
+.rodape{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: var(--cor-footer);
+    height: 26.875rem;
+    margin-top: 6rem;
+}
